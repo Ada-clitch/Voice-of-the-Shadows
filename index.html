@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Voice of the Shadows</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="fog"></div>
+
+  <!-- Background Music -->
+  <audio id="bg-music" src="music.mp3" autoplay loop></audio>
+
+  <div class="container">
+    <h1>🕵 Voice of the Shadows 🕵</h1>
+    <p class="instruction" id="instruction">Loading mysterious truth...</p>
+
+    <div class="voices">
+      <div class="voice" id="voice1"></div>
+      <div class="voice" id="voice2"></div>
+      <div class="voice" id="voice3"></div>
+    </div>
+
+    <p class="result" id="result"></p>
+    <button onclick="startGame()">Next Round</button>
+    <button onclick="toggleMusic()">🔊 Toggle Music</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
